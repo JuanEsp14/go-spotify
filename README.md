@@ -1,7 +1,4 @@
-![spotify](https://e7.pngegg.com/pngimages/158/639/png-clipart-spotify-streaming-media-logo-playlist-spotify-app-icon-logo-music-download.png)
-![golang](https://www.clipartmax.com/png/middle/288-2881446_image-result-for-golang-go-programming-language-logo.png)
-
-#Spotify API with Golang
+# Spotify API with Golang
 
 POC utilizando la API de Spotify dentro de Golang
 
