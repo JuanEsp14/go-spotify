@@ -2,7 +2,7 @@ package main
 
 import (
 	_ "github.com/JuanEsp14/go-spotify/docs"
-	"curso-go/go-spotify/pkg"
+	"github.com/JuanEsp14/go-spotify/pkg"
 	"github.com/gin-gonic/gin"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"

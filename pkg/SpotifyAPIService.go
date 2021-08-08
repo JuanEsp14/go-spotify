@@ -1,6 +1,6 @@
 package pkg
 
-import "curso-go/go-spotify/pkg/dto"
+import "github.com/JuanEsp14/go-spotify/pkg/dto"
 
 type SpotifyAPIService interface {
 	getArtists(responseType *dto.ArtistsResponse, band dto.DiscographyRequest, spotifyClient dto.SpotifyUser) error

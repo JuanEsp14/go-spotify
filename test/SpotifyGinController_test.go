@@ -2,8 +2,8 @@ package test
 
 import (
 	"bytes"
-	"curso-go/go-spotify/pkg"
-	"curso-go/go-spotify/pkg/dto"
+	"github.com/JuanEsp14/go-spotify/pkg"
+	"github.com/JuanEsp14/go-spotify/pkg/dto"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	. "github.com/onsi/ginkgo"

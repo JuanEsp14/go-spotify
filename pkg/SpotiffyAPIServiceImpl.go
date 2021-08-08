@@ -1,7 +1,7 @@
 package pkg
 
 import (
-	"curso-go/go-spotify/pkg/dto"
+	"github.com/JuanEsp14/go-spotify/pkg/dto"
 	"encoding/json"
 	"fmt"
 	"github.com/sirupsen/logrus"

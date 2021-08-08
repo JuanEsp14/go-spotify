@@ -1,4 +1,4 @@
-module curso-go/go-spotify
+module github.com/JuanEsp14/go-spotify
 
 go 1.16
 
