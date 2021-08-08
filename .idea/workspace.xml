@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f044133-eb7e-4792-9c56-e2fbec1cfd30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/go-spotify.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/docs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/swagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/swagger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/SpotiffyAPIServiceImpl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/SpotifyAPIService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/SpotifyGinController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/dto/Album.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/dto/Artist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/dto/Discography.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/dto/SpotifyUser.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SpotifyGinController_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/artists_response.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/artists_response_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/discography_response.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wErSfw4HqfzxTCgTCh51ktqyCH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pkg/dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Makefile.swagger">
+    <configuration name="go build curso-go/go-spotify" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-spotify" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="curso-go/go-spotify" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTransactionServiceARGController in curso-go/go-spotify/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-spotify" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="curso-go/go-spotify/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestTransactionServiceARGController\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dependencies" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="dependencies" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="swagger" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="swagger" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="tests" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.swagger" />
+        <item itemvalue="Makefile.dependencies" />
+        <item itemvalue="Makefile.tests" />
+        <item itemvalue="Go Test.TestTransactionServiceARGController in curso-go/go-spotify/test" />
+        <item itemvalue="Go Build.go build curso-go/go-spotify" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="520" y="287" key="#Go_Modules" timestamp="1628035081066">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="520" y="287" key="#Go_Modules/0.0.1440.900@0.0.1440.900" timestamp="1628035081066" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1628448514748">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1628448514748" />
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.25.1440.838@0.25.1440.838" timestamp="1628373693114" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1628448514747">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1628448514747" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.25.1440.838@0.25.1440.838" timestamp="1628373693113" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1628448514746">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1628448514746" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.25.1440.838@0.25.1440.838" timestamp="1628373693112" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1628448514747">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1628448514747" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.25.1440.838@0.25.1440.838" timestamp="1628373693114" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1628439588767">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1628439588767" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.25.1440.838@0.25.1440.838" timestamp="1628376937138" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1628439588766">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1628439588766" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.25.1440.838@0.25.1440.838" timestamp="1628376937137" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1628439588765">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1628439588765" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.25.1440.838@0.25.1440.838" timestamp="1628376937136" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1628439588766">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1628439588766" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.25.1440.838@0.25.1440.838" timestamp="1628376937138" />
+    <state width="720" height="520" key="XDebugger.FullValuePopup" timestamp="1628371224848">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="520" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1628371224848" />
+    <state width="720" height="484" key="XDebugger.FullValuePopup/0.25.1440.838@0.25.1440.838" timestamp="1628129725438" />
+    <state x="343" y="64" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1628377665337">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="343" y="64" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1628377665337" />
+    <state x="421" y="205" width="597" height="490" key="find.popup" timestamp="1628448445487">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="205" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1628448445487" />
+    <state x="564" y="220" key="refactoring.ChangeSignatureDialog" timestamp="1628294200148">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="564" y="220" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1628294200148" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1628376867457">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1628376867457" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/SpotifyGinController.go</url>
+          <line>81</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/SpotifyGinController.go</url>
+          <line>82</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="fmt.Sprintf(&quot;Basic %s&quot;, sEnc)" language="go" />
+        <watch expression="fmt.Println(request.URL.String())" language="go" />
+        <watch expression="request.URL.String()" language="go" />
+        <watch expression="request.URL.String()" language="go" />
+        <watch expression="fmt.Sprint(request.URL)" language="go" />
+        <watch expression="fmt.Sprint(request.Body)" language="go" />
+        <watch expression="string(responseData)" language="go" />
+        <watch expression="err.Error()" language="go" />
+      </configuration>
+      <configuration name="GoTestRunConfiguration">
+        <watch expression="w.Body.String()" language="go" />
+        <watch expression="string(response.Body)" language="go" />
+        <watch expression="json.NewDecoder(response.Body).Decode(responseType)" language="go" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/go_spotify$TestTransactionServiceARGController_in_curso_go_go_spotify_test.out" NAME="TestTransactionServiceARGController in curso-go/go-spotify/test Coverage Results" MODIFIED="1628440433741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
