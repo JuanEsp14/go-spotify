@@ -1,0 +1,181 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=The+rolling&type=artist&offset=0&limit=5",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+        },
+        "followers": {
+          "href": null,
+          "total": 10525818
+        },
+        "genres": [
+          "british invasion",
+          "classic rock",
+          "rock"
+        ],
+        "href": "https://api.spotify.com/v1/artists/22bE4uQ6baNwSHPVcDxLCe",
+        "id": "22bE4uQ6baNwSHPVcDxLCe",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebd3cb15a8570cce5a63af63d8",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174d3cb15a8570cce5a63af63d8",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178d3cb15a8570cce5a63af63d8",
+            "width": 160
+          }
+        ],
+        "name": "The Rolling Stones",
+        "popularity": 84,
+        "type": "artist",
+        "uri": "spotify:artist:22bE4uQ6baNwSHPVcDxLCe"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6n5ceqTPlycEbZZLpGr3Tb"
+        },
+        "followers": {
+          "href": null,
+          "total": 679
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6n5ceqTPlycEbZZLpGr3Tb",
+        "id": "6n5ceqTPlycEbZZLpGr3Tb",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27381c1f9b85cd8dfb92b69aceb",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0281c1f9b85cd8dfb92b69aceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485181c1f9b85cd8dfb92b69aceb",
+            "width": 64
+          }
+        ],
+        "name": "The Rolling Stones in het fries - The Hangouts",
+        "popularity": 4,
+        "type": "artist",
+        "uri": "spotify:artist:6n5ceqTPlycEbZZLpGr3Tb"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2oogSVxD7F5mm3uB2GSatZ"
+        },
+        "followers": {
+          "href": null,
+          "total": 2100
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/2oogSVxD7F5mm3uB2GSatZ",
+        "id": "2oogSVxD7F5mm3uB2GSatZ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273d239a51e3bbd4d769630f776",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02d239a51e3bbd4d769630f776",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851d239a51e3bbd4d769630f776",
+            "width": 64
+          }
+        ],
+        "name": "The Rolling Girls",
+        "popularity": 25,
+        "type": "artist",
+        "uri": "spotify:artist:2oogSVxD7F5mm3uB2GSatZ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/73OZWY2ILZ6be9olDk1fG5"
+        },
+        "followers": {
+          "href": null,
+          "total": 5
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/73OZWY2ILZ6be9olDk1fG5",
+        "id": "73OZWY2ILZ6be9olDk1fG5",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273d341b632cafea2485c118006",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02d341b632cafea2485c118006",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851d341b632cafea2485c118006",
+            "width": 64
+          }
+        ],
+        "name": "The Rolling Goals",
+        "popularity": 3,
+        "type": "artist",
+        "uri": "spotify:artist:73OZWY2ILZ6be9olDk1fG5"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2tXyyPW53g7rzBpODyOA3O"
+        },
+        "followers": {
+          "href": null,
+          "total": 10
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/2tXyyPW53g7rzBpODyOA3O",
+        "id": "2tXyyPW53g7rzBpODyOA3O",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273aae310b7c64f30b133c9021c",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02aae310b7c64f30b133c9021c",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851aae310b7c64f30b133c9021c",
+            "width": 64
+          }
+        ],
+        "name": "The Rolling",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:2tXyyPW53g7rzBpODyOA3O"
+      }
+    ],
+    "limit": 5,
+    "next": "https://api.spotify.com/v1/search?query=The+rolling&type=artist&offset=5&limit=5",
+    "offset": 0,
+    "previous": null,
+    "total": 70
+  }
+}

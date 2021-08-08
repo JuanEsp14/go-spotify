@@ -1,0 +1,164 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Spotify API.",
+        "title": "Swagger Spotify API",
+        "contact": {
+            "name": "Juan Espinoza",
+            "email": "juanmesp@hotmail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0"
+    },
+    "basePath": "/",
+    "paths": {
+        "/getDiscography": {
+            "get": {
+                "description": "Introduce a name of the band",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Spotify"
+                ],
+                "summary": "get",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "String Band Name: name of the band",
+                        "name": "band_name",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/dto.Album"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/setToken": {
+            "post": {
+                "description": "Introduce a name of the band",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Spotify"
+                ],
+                "summary": "post",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "String ClientId: client account id",
+                        "name": "client_id",
+                        "in": "query",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "String ClientSecret: client secret to spotify",
+                        "name": "client_secret",
+                        "in": "query"
+                    },
+                    {
+                        "type": "string",
+                        "description": "String Token: token to use in request",
+                        "name": "token",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "dto.Album": {
+            "type": "object",
+            "properties": {
+                "images": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/dto.Cover"
+                    }
+                },
+                "name": {
+                    "type": "string"
+                },
+                "release_date": {
+                    "type": "string"
+                },
+                "total_tracks": {
+                    "type": "integer"
+                }
+            }
+        },
+        "dto.Cover": {
+            "type": "object",
+            "properties": {
+                "height": {
+                    "type": "integer"
+                },
+                "url": {
+                    "type": "string"
+                },
+                "width": {
+                    "type": "integer"
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "description": "Resolve calls to Spotify API",
+            "name": "Spotify"
+        }
+    ]
+}

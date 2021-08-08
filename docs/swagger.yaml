@@ -1,0 +1,107 @@
+basePath: /
+definitions:
+  dto.Album:
+    properties:
+      images:
+        items:
+          $ref: '#/definitions/dto.Cover'
+        type: array
+      name:
+        type: string
+      release_date:
+        type: string
+      total_tracks:
+        type: integer
+    type: object
+  dto.Cover:
+    properties:
+      height:
+        type: integer
+      url:
+        type: string
+      width:
+        type: integer
+    type: object
+info:
+  contact:
+    email: juanmesp@hotmail.com
+    name: Juan Espinoza
+  description: Spotify API.
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  title: Swagger Spotify API
+  version: "1.0"
+paths:
+  /getDiscography:
+    get:
+      consumes:
+      - application/json
+      description: Introduce a name of the band
+      parameters:
+      - description: 'String Band Name: name of the band'
+        in: query
+        name: band_name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/dto.Album'
+            type: array
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: get
+      tags:
+      - Spotify
+  /setToken:
+    post:
+      consumes:
+      - application/json
+      description: Introduce a name of the band
+      parameters:
+      - description: 'String ClientId: client account id'
+        in: query
+        name: client_id
+        required: true
+        type: string
+      - description: 'String ClientSecret: client secret to spotify'
+        in: query
+        name: client_secret
+        type: string
+      - description: 'String Token: token to use in request'
+        in: query
+        name: token
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: post
+      tags:
+      - Spotify
+swagger: "2.0"
+tags:
+- description: Resolve calls to Spotify API
+  name: Spotify
